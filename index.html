@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style></style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+       $(document).ready(function(){
+        $("h1").addClass("change-color margin-50");
+        $("h1").click(function(){
+            $("h1").css("color","red");
+        });
+        $("button").click(function(){
+            $("h1").css("color","yellow");
+        });
+        $("input").keypress(function(event){
+            console.log(event.key);
+        });
+       })
+       
+    </script>
+    <style>
+        .change-color{
+            color: green;
+            font-size: 2rem;
+            font-family: cursive;
+        }
+        .margin-50{
+            margin: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hello.</h1>
+    <img src="drum.png" alt="">
+    <a href="https://www.google.com" target="_blank ">Google</a>
+    <button>Click Me</button>
+    <button>Click Me</button>
+    <button>Click Me</button>
+    <button>Click Me</button>
+    <button>Click Me</button>
+    <input type="text">
+    
+</body>
+</html>

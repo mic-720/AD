@@ -32,7 +32,7 @@ public class SubarrayReverseSorted1 {
         return true;
     }
     public static void main(String[] args) {
-        int[] arr={1,2,5,4,6,3};
+        int[] arr={1,2,5,4,3};
         boolean ans=sortArr(arr);
         System.out.println(ans);
     }    

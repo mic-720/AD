@@ -2,10 +2,10 @@
 // sub array make the array sorted or not 
 public class SubarrayReverseSorted2 {
     public static void main(String[] args){
-        int[] arr={1,2,5,4,3,6};
+        int[] arr={1,2,5,4,3};
         //make the copy of the given array
         //sort the copied array for comparision
-        int[] copy={1,2,3,4,5,6};
+        int[] copy={1,2,3,4,5};
         int left=arr.length-1;;
         int right=0;
         boolean ans=true;
